@@ -1,0 +1,28 @@
+/*------------------------------------*\
+    $FONT-STACK
+\*------------------------------------*/
+
+
+/**
+ * Font weights
+ */
+    $lighter:300;
+    $normal:400;
+    $semibold:600;
+    $bold:700;
+
+
+/**
+ * Default text font-family and font weights
+ */
+%font__serif--text {
+    font-family: Georgia, serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+%font__sans--display {
+    font-family: Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}

@@ -1,0 +1,15 @@
+.container {
+    position: relative;
+    
+    @extend .cf;
+    
+    margin: 1rem .5rem;	
+    
+    @media screen and (min-width: ($break-tablet + 1px)) {
+	    margin: 3rem 1.5rem;
+	}
+	
+	@media screen and (min-width: ($break-mobile + 1px)) and (max-width: $break-tablet) {
+		margin: 2rem;	
+	}
+}

@@ -1,0 +1,14 @@
+/*------------------------------------*\
+    $LINKS
+\*------------------------------------*/
+
+a {
+    color:$color__blue--primary;
+    line-height:1;
+    text-decoration:none;
+    
+    &:hover,
+    &:focus {
+        color: darken($color__blue--primary, 15);
+    }
+}

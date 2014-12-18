@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    $MICRO
+\*------------------------------------*/
+/**
+* Micro typographic styles
+*
+**/
+
+dl {
+    dt {
+    }
+
+    dd {
+    	margin-left:0;
+    	margin-bottom: $base-spacing-unit;
+    }
+
+    dl {
+        padding-left: $base-spacing-unit;
+        padding-left: calc-rem($base-spacing-unit);
+    }
+}
+
+q:before {content: '“'; content: open-quote;}
+q:after {content: '”'; content: close-quote;}
+
+hr {
+    border-bottom: 1px dotted $color__background--dark;
+    margin-bottom: $base-spacing-unit;
+}
+
+pre {
+    font-style:italic;
+}

@@ -1,0 +1,31 @@
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+/**
+ * Custom molecule for footer styles
+ */
+
+
+.footer-main {
+    @extend .cf;
+    color: $color__background--dark;
+    padding: ($base-spacing-unit*2) 0 0 0;
+    padding: calc-rem($base-spacing-unit * 2) 0 0 0;
+    background-color: $color__background--black;
+    border-top: 5px solid lighten($color__background--black, 10);
+}
+
+    .footer-main__item {
+        @include max-width(7);
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: $base-spacing-unit * 2;
+        margin-bottom: calc-rem($base-spacing-unit * 2);
+
+        >h3 {
+            font-size: $h4-size;
+            font-size: calc-rem($h4-size);
+            color: $color__white;
+            margin-bottom:0;
+        }
+    }

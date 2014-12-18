@@ -1,0 +1,21 @@
+.widget-list {
+	border: 1px solid #ddd;
+}
+
+.widget-list-separate {
+	border: 0;
+}
+
+.widget-list-title {
+	text-align: center;
+	padding: .5rem;
+	background: #ccc;
+	border-bottom: 1px solid #ddd;
+	
+	.widget-list-separate & {
+		border: 0;
+		text-align: left;
+		background: none;
+		font-weight: $bold;
+	}
+}

@@ -1,0 +1,56 @@
+.widget {
+	background: #F5F5F5;
+	display: block;
+	padding: 1rem 1.5rem;
+	color: #3A3A3A;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	
+	&:last-child {
+		border-bottom: 0;
+	}
+	
+	.widget-list-separate & {
+		border: 1px solid #ddd;
+		background: none;
+		margin-bottom: 1rem;
+		box-shadow: 0px 3px 5px rgba(0,0,0, 0.1);
+	}
+}
+
+.widget-title {
+	font-weight: $semibold;
+	@extend .epsilon;
+	margin: 0 0 0.5rem 0;
+}
+
+.widget-description {
+	margin: 0 0 0.5rem 0;
+}
+
+.widget-note {
+	color: #7C7C7A;
+	font-size: .85rem;
+	width: 50%;
+	float: left;
+	
+	&-right {
+		text-align:right;
+	}
+	&-info {
+		color: $color-info;
+	}
+	&-success {
+		color: darken($color-success, 10%);
+	}
+	&-warning {
+		color: $color-warning;
+	}
+	&-error {
+		color: $color-error;
+	}
+	&-important {
+		font-weight: $bold;
+	}
+}
+
